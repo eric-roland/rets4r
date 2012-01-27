@@ -14,7 +14,7 @@ module RETS4R
       self.uri = uri
       self.method = method
       self.request_id = requestId || self.class.request_id
-      self.nc += 1
+      #self.nc += 1
     end
 
     def update_with_response(response)
